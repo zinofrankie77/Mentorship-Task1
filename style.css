@@ -1,0 +1,69 @@
+.container{
+  background-color: darkred;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+  text-align: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.header img{
+  display: block;
+  margin: auto;
+  width: 25%
+}
+.about{
+  text-align: center;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card{
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+.card h1{
+  text-align: center;
+  color: red;
+  
+}
+.card ul li{
+  color: green;
+  list-style: none;
+  font-size: large;
+  cursor: pointer;
+}
+.card ul li:hover{
+  color: black;
+  
+}
+.contact {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);      
+}
+.contact button{
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
