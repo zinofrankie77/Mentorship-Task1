@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body{
+  font-family: Lobster;
+  
+}
 .container{
   background-color: darkred;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .header{
   text-align: center;
@@ -11,10 +16,12 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.header img{
+img{
   display: block;
   margin: auto;
-  width: 25%
+  width: 25%;
+  border-radius: 15px;
+  
 }
 .about{
   text-align: center;
